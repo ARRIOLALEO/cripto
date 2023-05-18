@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <CryptoCard/>
+        <h1>checking</h1>
       </header>
     </div>
   );
