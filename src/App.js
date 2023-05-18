@@ -1,12 +1,23 @@
-import CryptoCard from './components/CriptoCard';
+import logo from './logo.svg';
 import './App.css';
+import CriptoCard from './components/CriptoCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <CryptoCard/>
-        <h1>checking</h1>
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
       </header>
     </div>
   );
